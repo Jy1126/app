@@ -7,7 +7,7 @@ class App extends React.Component {
   public render() {
     return (
       <div className="App">
-        <Rate character="7"/>
+        <Rate character="6"/>
       </div>
     );
   }
