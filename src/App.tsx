@@ -1,13 +1,16 @@
-import { Rate } from 'antd';
+const { Header, Footer, Content } = Layout;
+import { Layout } from 'antd';
 import * as React from 'react';
-import './App.scss';
-
 
 class App extends React.Component {
   public render() {
     return (
       <div className="App">
-        <Rate character="6"/>
+        <Layout>
+          <Header>Header</Header>
+         <Content>Content</Content>
+          <Footer>Footer</Footer>
+        </Layout>
       </div>
     );
   }
